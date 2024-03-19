@@ -1,0 +1,45 @@
+.app-sidebar__user-avatar
+{
+	width: 48px;
+	background: gray;
+	padding: 6px;
+}
+
+.header-search-input
+{
+    width: 50%;
+}
+
+.bg-img {
+	/* The image used */
+	/* background-image: url("<?= SERVERURL ?>/assets/images/nomina.jpg"); */
+
+	min-height: 100%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	opacity: 1;
+}
+
+#suggestions 
+{
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+    height: auto;
+    position: absolute;
+    top: 45px;
+    z-index: 9999;
+    width: 206px;
+}
+ 
+#suggestions .suggest-element 
+{
+    background-color: #EEEEEE;
+    border-top: 1px solid #d6d4d4;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    float: left;
+}
