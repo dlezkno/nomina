@@ -15,6 +15,8 @@
 	session_name('COMWARE');
 	session_start();
 
+	// echo "esto esta melo";
+
 	if	( ! isset($_SESSION['Login']['Usuario']) AND ! isset($_SESSION['Login']['Perfil']) )
 		$_GET['url'] = '';
 
