@@ -2,6 +2,8 @@
 	require_once('views/templates/header.php');
 	require_once('views/templates/sideBar.php');
 ?>
+<div>
+</div>
 <div id="main">
 	<div class="row">
 		<div class="content-wrapper-before cyan darken-4"></div>
